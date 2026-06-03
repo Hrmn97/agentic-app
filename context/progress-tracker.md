@@ -9,7 +9,7 @@ change.
 
 ## Current Goal
 
-- Authentication and route protection (next feature)
+- Canvas workspace layout (next feature)
 
 ## Completed
 
@@ -18,6 +18,7 @@ change.
 - Updated `globals.css` to Tailwind directives only
 - Replaced main page component with minimal Ghost AI placeholder
 - **01-design-system**: Installed shadcn/ui (Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea), installed lucide-react, created `lib/utils.ts` with `cn()` helper, wired Ghost AI dark theme tokens into `globals.css` via `@theme inline`. Build passes with zero errors.
+- **02-editor**: Created `components/editor/editor-navbar.tsx` (fixed-height top bar, sidebar toggle with PanelLeftOpen/PanelLeftClose icons) and `components/editor/project-sidebar.tsx` (fixed floating overlay, slides in from left, My Projects / Shared tabs with empty states, New Project button). Wired into `app/page.tsx`. Zero TypeScript errors.
 
 ## In Progress
 
@@ -25,9 +26,9 @@ change.
 
 ## Next Up
 
+- Canvas workspace layout
 - Authentication and route protection
 - Project creation and management UI
-- Canvas workspace layout
 
 ## Open Questions
 
